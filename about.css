@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+.about-head{
+    /* border: 2px solid yellow; */
+    background-size: 1920px !important;
+    background: url(images/product-img-1.jpg) no-repeat;
+    height: 50% !important;
+    background-position: center -335.685px;
+}
+
+
+
+/* general */
+.collect h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400 !important;
+    font-size: 50px !important;
+}
+
+
+.head-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner img{
+    width: 500px;
+    height: 250px;
+}
+
+.icons hr{
+    width: 10px;
+    /* margin-bottom: 10px; */
+    /* align-items: flex-start; */
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icons .bx{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image img{
+    width: 70px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+
+
+body{
+    background-color: black !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.footer p, .footer a{
+    text-decoration: none !important;
+    color: rgb(122, 122, 122) !important;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
