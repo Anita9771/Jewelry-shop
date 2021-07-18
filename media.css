@@ -1,0 +1,207 @@
+@media (min-width: 1024px){
+    .dropdown{
+        display: none !important;
+    }
+    
+    .header-links{
+        display: flex !important;
+    }
+
+    .head-icon{
+        display: flex !important;
+        justify-content: space-between;
+    }
+
+    .head-first img{
+        text-align: left !important;
+    }
+    
+}
+
+
+/* media queries */
+/* index */
+@media (min-width: 320px) and (max-width: 425px){
+    body{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin:0 !important;
+    }
+
+    .header-links, .head-icon{
+        display:none !important;
+    }
+
+    .head-first{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .dropdown{
+        display: flex;
+        background-color: black !important; 
+    }
+
+    .dropdown-menu{
+        background-color: black !important;
+    }
+
+    .header img{
+        text-align: center !important;
+    }
+
+    #carouselExampleSlidesOnly{
+        width: 300px !important;
+    }
+
+    .products{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .collect{
+        text-align: left !important;
+    }
+
+    .banner{
+        position: relative !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: left !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        object-fit: contain !important;
+        align-items: flex-start !important;
+        /* border: 2px solid white; */
+        height: 550px !important;
+    }
+
+    .footer{
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .banner img{
+        text-align: left !important;
+        position: absolute !important;
+        /* display: flex !important;
+        flex-direction: column !important; */
+        left: -50px !important;
+        padding-right: 0 !important;
+        width: 100% !important;
+        /* height: 250px !important; */
+        /* margin-laef: 0 !important; */
+        overflow-x: hidden !important;
+    }
+
+    .bantwo{
+        bottom:0 !important;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-us{
+        text-align: justify !important;
+    }
+
+    .map img{
+        width: 300px !important;
+    }
+
+    .reach{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 300px !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    input, textarea{
+        width: 280px !important;
+    }
+
+    textarea{
+        display: flex;
+        align-self:flex-start;
+
+    }
+
+    input{
+        margin-top: 10px !important;
+        margin-left: auto !important;
+        display: flex;
+        align-self:flex-start;
+    }
+
+    .contact-header{
+        margin-left: 0 !important;
+    }
+}
+
+@media (min-width: 768px){
+    .header-links, .head-icon{
+        display:none;
+    }
+
+    .header img{
+        text-align: center !important;
+        margin: auto !important;
+    }
+
+    .head-first{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .dropdown{
+        display: flex;
+        background-color: black !important; 
+    }
+
+    .dropdown-menu{
+        background-color: black !important;
+    }
+
+    #carouselExampleSlidesOnly{
+        width: 500px !important;
+        text-align: center !important;
+        margin-left: 150px !important;
+    }
+
+    .products, .main{
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+    }
+
+    .prod img{
+        width: 250px !important;
+    }
+
+    .content img{
+        width: 250px !important;
+        /* border: 2px solid; */
+    }
+
+    .banner{
+        display: flex !important;
+        flex-direction: row !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .banner img{
+        width: 300px !important;
+    }
+}
