@@ -204,4 +204,38 @@
     .banner img{
         width: 300px !important;
     }
+
+    .map img{
+        width: 700px !important;
+    }
+
+    .reach{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 700px !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    input, textarea{
+        width: 680px !important;
+    }
+
+    textarea{
+        display: flex;
+        align-self:flex-start;
+
+    }
+
+    input{
+        margin-top: 10px !important;
+        margin-left: auto !important;
+        display: flex;
+        align-self:flex-start;
+    }
 }
